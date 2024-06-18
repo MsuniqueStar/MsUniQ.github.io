@@ -5,72 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ananya Kelakoppa Sathyanarayana - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
 </head>
 <body>
     <header>
-        <h1>Ananya Kelakoppa Sathyanarayana</h1>
-        <p>Masters Student in Computer Science</p>
-        <p>Email: <a href="mailto:ananya.sathyanarayana2022@gmail.com">ananya.sathyanarayana2022@gmail.com</a></p>
-        <p>Phone: 017643257962</p>
-        <p>Location: Paderborn, Germany</p>
-        <p>
-            <a href="https://www.linkedin.com/in/ananya-k-s-571085192" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/MsuniqueStar" target="_blank">GitHub</a>
-        </p>
+        <div class="container">
+            <div class="header-content">
+                <h1>Ananya Kelakoppa Sathyanarayana</h1>
+                <p>Masters Student in Computer Science</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I am a dedicated and innovative computer scientist with a passion for solving real-world problems. My experience in back-end development, data analysis, and research, along with my strong leadership and communication skills, make me a valuable asset to any team or educational institution.</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="text">
+                    <p>I am Masters student in Computer Science at Paderborn University, Germany. I am a dedicated and innovative computer scientist with a passion for solving real-world problems. My experience in back-end development, data analysis, and research, along with my strong leadership and communication skills, make me a valuable asset to any team or educational institution. My experience includes developing models for banking clients at Infosys and leading projects on diabetes prediction and GUI applications. My skills span Python, C++, Java, HTML, CSS, and machine learning. I hold a Bachelor's degree in Computer Science from SDM Institute of Technology and has completed a Microsoft internship in machine learning. Am known for my innovative problem-solving and strong leadership abilities.</p>
+                </div>
+                <div class="image">
+                    <img src="images/about.jpg" alt="About Me Image" class="section-image">
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Education</h2>
-        <h3>Masters in Computer Science</h3>
-        <p>Paderborn University, Germany (04/2023 - Present)</p>
-        <p>Key Courses: Machine Learning for Biometrics, Model-Based Systems Engineering, Software Product Lines, Natural Language Programming</p>
-        
-        <h3>Bachelors in Engineering in Computer Science</h3>
-        <p>SDM INSTITUTE OF TECHNOLOGY (06/2016 - 05/2020)</p>
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <p><strong>Masters in Computer Science</strong><br>
+                    Paderborn University, Germany<br>
+                    04/2023 - Present</p>
+                    <p>Machine Learning for Biometrics, Model-Based Systems Engineering, Software Product Lines, Natural Language Programming.</p>
+                    <p><strong>Bachelors in Engineering in Computer Science</strong><br>
+                    SDM INSTITUTE OF TECHNOLOGY<br>
+                    06/2016 - 05/2020</p>
+                </div>
+                <div class="resume-section">
+                    <h3>Work Experience</h3>
+                    <p><strong>Senior Software Developer</strong><br>
+                    Infosys Private Limited<br>
+                    03/2021 - 03/2023</p>
+                    <p>Developed models for major banking clients, using deep industry knowledge in GUI (Tkinter). Played a pivotal role for HCB merger, contributing technical expertise to ensure a smooth integration of systems and processes.</p>
+                </div>
+                <div class="resume-section">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>ESQL</li>
+                        <li>GUI (Tkinter)</li>
+                        <li>Machine Learning</li>
+                        <li>Data Analysis</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Work Experience</h2>
-        <h3>Senior Software Developer</h3>
-        <p>Infosys Private Limited (03/2021 - 03/2023)</p>
-        <ul>
-            <li>Developed models for major banking clients, using deep industry knowledge in GUI(Tkinter).</li>
-            <li>Played a pivotal role in HCB merger, contributing technical expertise to ensure smooth integration of systems and processes.</li>
-            <li>Acquired a diverse skill set, including proficiency in C, C++, Java, Python, HTML, CSS, and SQL.</li>
-            <li>Gained backend expertise in DBMS, C++, ESQL, Python, and Human Security.</li>
-        </ul>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-content">
+                <div class="project">
+                    <p><strong>Diabetes Prediction Based on Food Consumption</strong> (06/2019 - 09/2020)</p>
+                    <p>Developed a Python project with HTML and CSS at frontend to predict diabetes from daily diet monitoring, published in IJSREM.</p>
+                </div>
+                <div class="project">
+                    <p><strong>GUI Project</strong> (06/2024 - 06/2024)</p>
+                    <p>The Python-based application uses Tkinter for the GUI, OpenWeatherMap API for weather data, and Google Calendar API for event management.</p>
+                    
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Personal Projects</h2>
-        <h3>Diabetes Prediction Based on Food Consumption</h3>
-        <p>Developed a Python project with HTML and CSS at the frontend to predict diabetes from daily diet monitoring, published in (IJSREM).</p>
-        <h3>GUI Project</h3>
-        <p>The Python-based application uses Tkinter for the GUI, OpenWeatherMap API for weather data, and Google Calendar API for event management.</p>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <p>Email: <a href="mailto:ananya.sathyanarayana2022@gmail.com">ananya.sathyanarayana2022@gmail.com</a></p>
+                <p>Phone: 017643257962</p>
+                <p>Location: Paderborn, Germany</p>
+                <p><a href="https://linkedin.com/in/ananya-k-s-571085192" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/MsuniqueStar" target="_blank">GitHub</a></p>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Python, C++, HTML, ESQL, GUI(Tkinter)</li>
-            <li>Machine Learning, Data Analysis, Java, CSS</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Achievements</h2>
-        <ul>
-            <li>Microsoft Internship - Certification from Microsoft for completing an internship at Verzeo in Machine Learning.</li>
-            <li>C++ Proficiency - Certification from SDMIT.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Languages</h2>
-        <ul>
-            <li>German: Elementary Proficiency</li>
-            <li>English: Full Professional Proficiency</li>
-            <li>Hindi: Professional Working Proficiency</li>
-            <li>Kannada: Native or Bilingual Proficiency</li>
-        </ul>
-    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ananya Kelakoppa Sathyanarayana</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
